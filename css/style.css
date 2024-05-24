@@ -28,6 +28,10 @@ header {
     height: 400px;
 }
 
+.content-2x {
+    height: 800px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -80,6 +84,10 @@ header {
 
 .bg-lightgray {
     background-color: #D3D3D3;
+}
+
+.bg-forestgreen {
+    background-color: #228B22;
 }
 
 .p-10 {
