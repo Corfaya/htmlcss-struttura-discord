@@ -19,6 +19,15 @@ header {
     margin: 0 auto;
 }
 
+.container-sm {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content {
+    height: 400px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -26,12 +35,14 @@ header {
 
 .col-20 {
     width: 20%;
-    border: 2px dashed black;
 }
 
 .col-60 {
     width: 60%;
-    border: 2px dashed black;
+}
+
+.col-100 {
+    width: 100%;
 }
 
 /* CONTENTS' STYLE*/
@@ -43,6 +54,26 @@ header {
     background-color: #DAA520;
 }
 
+.bg-darkblue {
+    background-color: #00008B;
+}
+
+.bg-violet {
+    background-color: #EE82EE;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.bord-dashed {
+    border: 2px dashed black;
+}
+
 h2 {
     font-size: 16px;
     font-weight: 500;
@@ -50,10 +81,6 @@ h2 {
 
 #login {
     text-align: right;
-}
-
-.p-10 {
-    padding: 10px;
 }
 
 .col-60 li {
