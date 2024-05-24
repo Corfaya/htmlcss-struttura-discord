@@ -78,6 +78,10 @@ header {
     background-color: #FFC0CB;
 }
 
+.bg-lightgray {
+    background-color: #D3D3D3;
+}
+
 .p-10 {
     padding: 10px;
 }
