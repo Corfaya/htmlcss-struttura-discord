@@ -1,5 +1,66 @@
+/* GENERAL SETTINGS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ADD8E6;
+}
+
+/* LAYOUT CLASSES */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-20 {
+    width: 20%;
+    border: 2px dashed black;
+}
+
+.col-60 {
+    width: 60%;
+    border: 2px dashed black;
+}
+
+/* CONTENTS' STYLE*/
+.bg-lightblue {
+    background-color: #ADD8E6;
+}
+
+.bg-gold {
+    background-color: #DAA520;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#login {
+    text-align: right;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.col-60 li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul {
+    text-align: center;    
 }
