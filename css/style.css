@@ -37,6 +37,10 @@ header {
     width: 20%;
 }
 
+.col-40 {
+    width: 40%;
+}
+
 .col-60 {
     width: 60%;
 }
@@ -60,6 +64,18 @@ header {
 
 .bg-violet {
     background-color: #EE82EE;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-dodgerblue {
+    background-color: #1E90FF;
+}
+
+.bg-pink {
+    background-color: #FFC0CB;
 }
 
 .p-10 {
