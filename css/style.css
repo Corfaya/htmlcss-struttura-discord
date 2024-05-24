@@ -42,7 +42,6 @@ header {
 }
 
 .row {
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -140,11 +139,11 @@ header {
 }
 
 .p-10 {
-    padding: 20px;
+    padding: 10px;
 }
 
-.p-30 {
-    padding: 30px;
+.p-35 {
+    padding: 35px;
 }
 
 .bord-dashed {
